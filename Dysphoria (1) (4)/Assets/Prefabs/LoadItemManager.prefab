@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3902226400029715969
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3902226400029715975}
+  - component: {fileID: 3902226400029715968}
+  m_Layer: 0
+  m_Name: LoadItemManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3902226400029715975
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3902226400029715969}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3902226400029715968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3902226400029715969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c65183312ac83d4c86cfc524d33af0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fireTruck: {fileID: 11400000, guid: 95c00ddf625669546b496dd718dd2d37, type: 2}
+  actionFigure: {fileID: 11400000, guid: ad899d6776881694f861a042720d6d0b, type: 2}
+  batterie: {fileID: 11400000, guid: 005ac1facefe8514c811fbdd5a593774, type: 2}
+  broom: {fileID: 11400000, guid: 8a59d2cf620a11540a490359c53db363, type: 2}
+  cookie: {fileID: 11400000, guid: 02b25b73c7c1f6c4c8fd6c89f2cb183f, type: 2}
+  gem: {fileID: 11400000, guid: e88c183df75ff4f43b6478b03337818c, type: 2}
+  gimmeBoi: {fileID: 11400000, guid: 1daadaa9d1ce8bd4198ed2fc60f41cfc, type: 2}
+  hanger: {fileID: 11400000, guid: 9542c721dc8c8fd4e9524e381ca661ed, type: 2}
+  key: {fileID: 11400000, guid: 666a42c8776b3fe4ead0690e55eb74c0, type: 2}
+  sword: {fileID: 11400000, guid: 6442af0d7b7523e47a6efea50f9198a3, type: 2}
+  teddy: {fileID: 11400000, guid: ca16f81cd281141478e11fda83c230cb, type: 2}
+  tire: {fileID: 11400000, guid: 56fae55dc6c4f5c46841a8386d480867, type: 2}
+  completeFiretruck: {fileID: 11400000, guid: 26914212de77f5f4bb09eb71f12b51c6, type: 2}
+  completeSword: {fileID: 11400000, guid: 0cb3c384f6374254db4a21cb1961f468, type: 2}
+  completeGimmeBoi: {fileID: 11400000, guid: 8ef2a3e18a138114892f98dd476e4217, type: 2}
+  completeBroom: {fileID: 11400000, guid: 866254eb1acc09346ac5e31b18a13592, type: 2}
